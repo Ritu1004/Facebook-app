@@ -1,14 +1,14 @@
+body{
+background-color: #e9ebee !important;
+}
 
 #header {
     background-color: #4267b2;
     color: white;
 }
-footer {
-  background-color: white;
-  height: 30px;
-  
 
-}
+
+  
 #wrapper {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -44,36 +44,162 @@ color:white !important;
 #header ul .glyphicon {
     font-size: 20px;
 }
+.nav{
+margin-top:5px;
+}
 
+
+.navbar-brand{
+margin-bottom:20px;
+}
+.navbar-tabs{
+background-color:white;
+}
 .pull-right {
     float: right!important;
 }
 .img1{
 height:30px;
 width:30px;
+
+}
+.fb-logo{
+height:40px;
+width:40px;
+
 }
 #w{
-padding:0px;
-margin-top:12px;
+padding:-1px;
+margin-top:-3px;
 }
 
 .list-heading {
     padding: 20px 15px 0 15px;
 }
+.list-group-item{
+background-color:white!important;
+}
+.list-group-item.active .list-group-item-heading{
+color:darkblue;
+}
+.list-group-item.active .list-group-item-text{
+color:black;
+
+}
+
+.trending-border{
+
+background-color:white !important;
+}
+
+
+
+a.list-group-item.active{
+border-color:white;
+}
+
 .badge{
 float:right;
 background:transparent;
 color:grey;
-font-size:10px;
+font-size:13px;
 }
-.panel-body .glyphicon {
+.whitetext{
+color:black;
+}
+
+
+.notifi{
+ height:15px;
+ width:10px;
+ background-color: #fa3e3e;
+ border-radius:2px;
+ color: #fff;
+ padding:1px 3px;
+ margin-top:27px;
+ margin-left:-20px;
+
+}
+.
+
+
+.glyphicon {
     margin-left: 10px;
     margin-right: 4px;
 }
 .text-post {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     margin-top: 0;
+color:blue;
 }
 .image-post {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+	
+	width:600px;
+}
+.placeholder{
+height:35px;
+width:400px!important;
+}
+
+.place{
+height:60px;
+width:92.5%;
+margin-left:-4px;
+border:1px solid transparent;
+
+}
+.btn-default{
+color:#333;
+margin-left:-20px;
+height:35px;
+border-color:white !important;
+}
+
+.panel-default>.panel-heading
+{
+    height: 44px;
+}
+
+.panel-heading{
+border:1px solid lightgrey;
+margin-bottom:-1px;
+}
+
+.panel-body{
+padding:15px;
+border:1px;
+margin-top:-2px;
+
+
+}
+
+.profilepic{
+margin-top:6px;
+margin-left:-350px;
+height:48px;
+width:48px;
+
+}
+
+
+
+
+.panel-div{
+
+
+border: 1px solid lightgrey;
+background: white;
+}
+.trending-background
+{
+background-color:white;
+}
+.a
+{
+margin-top: -10px;
+}
+.media-body{
+height:30px;
+margin-bottom:60px;
 }
